@@ -120,9 +120,9 @@ export function Sidebar({ isCollapsed, onToggle, isMobileOpen, onMobileClose }: 
           {/* Top-Right Curve */}
           {!isCollapsed && (
             <img
-              src="/images/curve-separator.svg"
+              src="./assets/WaterMark.svg"
               alt="Top Curve"
-              className="absolute -top-6 right-0 w-24 h-auto z-10"
+              className="absolute -top-6 right-0 w-2 h-1 "
             />
           )}
 
@@ -178,9 +178,7 @@ export function Sidebar({ isCollapsed, onToggle, isMobileOpen, onMobileClose }: 
         </div>
 
         {/* Curve Separator */}
-        <div className="relative">
-          <img src="/images/curve-separator.svg" alt="" className="w-full" />
-        </div>
+       
 
         {/* Mobile Menu */}
         <div
